@@ -61,3 +61,8 @@ INSERT INTO `app_pagamento`.`transacao` (`Id`, `Id_Usuario`, `Id_Cartao`, `Valor
 INSERT INTO `app_pagamento`.`transacao` (`Id`, `Id_Usuario`, `Id_Cartao`, `Valor`, `Data_de_Cadastro`) VALUES ('5', '5', '5', '15556.56', '2022-01-01');
 
 /* Criar uma query que retorne todas as transações cadastradas em ordem decrescente da data de cadastro, contendo os dados do usuário e cartão, não apenas seus IDs */
+SELECT c.`Id`, c.`Numero`, c.`CVV`, c.`Data_de_Expiracao`, t.`Id`, t.`Id_Cartao`, t.`Id_Usuario`, t.`Valor`, t.`Data_de_Cadastro`, u.`Id`, u.`Nome`, u.`Imagem`, u.`Nome_de_Usuario`
+FROM `cartão` AS `c`, `usuario` AS `u`
+JOIN `transacao` AS `t`
+WHERE c.`Id` = t.`id` AND u.`Id` = c.`Id`
+ORDER BY c.`Id` DESC;
