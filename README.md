@@ -7,6 +7,16 @@
 
 <p>"Suposta" aplicação, pois não iremos de fato substituir a parte de backend que foi utilizada na etapa de frontend. Com os conhecimentos que irão adquirir nas próximas semanas, caso queiram, vocês poderão fazer essa substituição para reforçar ainda mais o aprendizado e demonstrar essa evolução em seu Github. Mas isso é opcional, e não obrigatório durante o nosso período.</p>
 
+<hr>
+
+<h3>Tecnologias Utilizadas</h3>
+
+- <img width='25' height='25' src='https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png' alt='SQL'/> [SQL](https://en.wikipedia.org/wiki/SQL) – Languages
+
+Para ver todas as tecnologias [clique aqui](/techstack.md)
+
+<hr>
+
 <p>O que teremos de atividades obrigatórias serão:</p>
 
 <hr>
