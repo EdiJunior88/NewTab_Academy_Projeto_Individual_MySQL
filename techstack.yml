@@ -1,0 +1,32 @@
+repo_name: EdiJunior88/NewTab_Academy_Projeto_Individual_MySQL
+report_id: f3d6e69ff0462a199bc258676899d9eb
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-04T14:40:16+00:00'
+requested_by: EdiJunior88
+provider: github
+branch: main
+detected_tools_count: 2
+tools:
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/EdiJunior88/NewTab_Academy_Projeto_Individual_MySQL/blob/main/Projeto_01/projeto_01.sql
+  detection_source: Projeto_01/projeto_01.sql
+  last_updated_by: EdiJunior88
+  last_updated_on: 2022-05-13 23:50:49.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/EdiJunior88/NewTab_Academy_Projeto_Individual_MySQL
+  detection_source: Repo Metadata
